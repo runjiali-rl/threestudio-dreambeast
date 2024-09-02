@@ -1,0 +1,22 @@
+Please decompose the following composite description of a mythical animal into descriptions of the individual animals it is composed of. Identify the distinct animal and describe them separately.
+
+Examples:
+
+"A majestic creature with the body of a powerful bear and the antlers of a grand deer, standing confidently in a forest clearing. The creature exhibits a robust and muscular build, adorned with thick, rugged fur and large, impressive antlers that extend proudly upwards. The clearing is surrounded by dense, lush trees and vibrant green foliage, with warm sunlight filtering through the forest canopy, casting a mystical glow and dappled shadows over the scene."
+
+Decomposed parts: "bear body", "deer antlers"
+"A mythical creature with a sheep body, a lion head, and a tail of a fish."
+
+Decomposed parts: "sheep body", "lion head", "fish tail"
+"A magnificent beast with the wings of a giant eagle, the body of a lion, and the tail of a serpent, soaring above the mountains. The creature's powerful wings spread wide, displaying feathers that shimmer in the sunlight, while its lion's body exudes strength and grace. Its serpent-like tail coils and twists with agility."
+
+Decomposed parts: "eagle wings", "lion body", "serpent tail"
+"A fantastical being with the head of a dragon, the legs of a horse, and the body of a giant turtle, lying on a beach. The dragon's head is adorned with fearsome scales and sharp horns, the horse's legs are sturdy and swift, and the turtle's body is covered with a hard, protective shell."
+
+Decomposed parts: "dragon head", "horse legs", "turtle body"
+"An enchanting creature with the eyes of an owl, the mane of a lion, and the body of a sleek panther, resting in a moonlit meadow. The owl's eyes are large and penetrating, the lion's mane is thick and majestic, and the panther's body is sleek and agile."
+
+Decomposed parts: "owl eyes", "lion mane", "panther body"
+Please decompose the following description:
+
+[COMPOSITE DESCRIPTION]

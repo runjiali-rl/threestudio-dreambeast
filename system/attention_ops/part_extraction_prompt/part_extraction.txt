@@ -1,0 +1,38 @@
+Please decompose the following composite description of a composite object into descriptions of the individual parts it is composed of. Identify the distinct part and describe them separately.
+
+Examples:
+
+"An object with the trunk of a tree and the screen of a smartphone."
+Decomposed parts: "tree trunk", "smartphone screen"
+
+"An object with the screen of a television and the wings of a butterfly."
+Decomposed parts: "television screen", "butterfly wings"
+
+"An object with the body of a guitar and the wings of an eagle"
+Decomposed parts: "guitar body", "eagle wings"
+
+"An object with the wheel of a bicycle and the wings of a bat."
+Decomposed parts: "bicycle wheel", "bat wings"
+
+“a man in red shorts, beige sweater, wearing a cowboy hat”
+Decomposed parts: "red shorts", "beige sweater", "cowboy hat
+
+“a man in a lolita dress, wearing a cowboy hat”
+Decomposed parts: "lolita dress", "cowboy hat
+
+“a man in a red lolita dress, wearing a yellow cowboy hat”
+Decomposed parts: "red lolita dress", "yellow cowboy hat
+
+"an old cottage with wooden walls, gothic windows, roof made of steel"
+Decomposed parts: "wooden walls", "gothic windows", "steel roof"
+
+"a car with airplane wings"
+Decomposed parts: "car", "airplane wings"
+
+
+"a purple robot holding a white gun"
+Decomposed parts: "purple robot", "white gun"
+
+Please decompose the following description:
+
+[COMPOSITE DESCRIPTION]
