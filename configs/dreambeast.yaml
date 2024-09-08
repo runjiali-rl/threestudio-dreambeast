@@ -111,12 +111,13 @@ system:
   
   use_global_attn: True
   global_model_name: stabilityai/stable-diffusion-3-medium-diffusers
-  attention_guidance_start_step: 10
+  # attention_guidance_start_step: 400
+  attention_guidance_start_step: 1000
   attention_guidance_timestep_start: 450
   attention_guidance_timestep_end: 100
   attention_guidance_free_style_timestep_start: 800
-  record_attention_interval: 5
-  attntion_nerf_train_interval: 1000
+  record_attention_interval: 20
+  attntion_nerf_train_interval: 2000
   cross_attention_scale: 0.6
   self_attention_scale: 1.2
 
@@ -127,7 +128,7 @@ system:
 
 
   api_key: ???
-  cache_dir: "/homes/55/runjia/scratch/diffusion_model_weights"
+  cache_dir: "/homes/55/runjia/scratch/dreambeast_cache"
 
   # loss_weight: [1.8, 1, 2]
 

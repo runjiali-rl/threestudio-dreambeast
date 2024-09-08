@@ -1,12 +1,14 @@
 # threestudio-dreambeast
-![DreamBeast](https://github.com/DSaurus/threestudio-DreamBeast/assets/24589363/b21e2a80-7ea9-4add-890e-0395b91aa5af)
+Runjia Li, Junlin Han, Luke Melas-Kyriazi, Chunyi Sun, Zhaochong An, Zhongrui Gui, Shuyang Sun, Philip Torr, Tomas Jakab
 
-The DreamBeast extension for threestudio. To use it, simply install this extension in threestudio `custom` directory.
+<a href='https://runjiali-rl.github.io/projects/dreambeast.html'><img src='https://img.shields.io/badge/Project-Page-Green'></a>  <a href='https://arxiv.org/abs/xxx'><img src='https://img.shields.io/badge/Paper-Arxiv-red'></a>
+
+The DreamBeast extension for <a href='https://github.com/threestudio-project/threestudio'>threestudio</a>. To use it, simply install this extension in threestudio `custom` directory.
 
 # Installation
 ```
 cd custom
-git clone https://github.com/DSaurus/threestudio-DreamBeast.git
+git clone https://github.com/runjiali-rl/threestudio-dreambeast.git
 cd threestudio-dreamBeast
 
 # First install xformers (https://github.com/facebookresearch/xformers#installing-xformers)
@@ -21,11 +23,12 @@ pip install -r requirements.txt
 
 # Quick Start
 ```
-# DreamBeast without shading (memory efficient)
-python launch.py --config custom/threestudio-DreamBeast/configs/DreamBeast-sd21.yaml --train --gpu 0 system.prompt_processor.prompt="an astronaut riding a horse"
+# Replace the OPENAI_API_KEY with your openai api key
+python launch.py --config custom/threestudio-dreambeast/configs/dreambeast.yaml --train --gpu 0 system.prompt_processor.prompt="a creature with a body of a kangaroo and the shell of a tortoise" "system.api_key=OPENAI_API_KEY",
 
-# DreamBeast with shading (used in paper)
-python launch.py --config custom/threestudio-DreamBeast/configs/DreamBeast-sd21-shading.yaml --train --gpu 0 system.prompt_processor.prompt="an astronaut riding a horse"
+python launch.py --config custom/threestudio-dreambeast/configs/dreambeast.yaml --train --gpu 0 system.prompt_processor.prompt="a car with airplane wings" "system.api_key=OPENAI_API_KEY",
+
+python launch.py --config custom/threestudio-dreambeast/configs/dreambeast.yaml --train --gpu 0 system.prompt_processor.prompt="An object with the screen of a television and the wings of a butterfly" "system.api_key=OPENAI_API_KEY",
 ```
 
 # Citing

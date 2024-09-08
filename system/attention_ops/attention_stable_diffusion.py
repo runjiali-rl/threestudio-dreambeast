@@ -958,7 +958,7 @@ def post_process_animal_part_extraction(animal_part):
 
 
 def animal_part_extractor(prompt, api_key, max_trial=100):
-    with open('custom/threestudio-mvdream/system/attention_ops/part_extraction_prompt/animal_extraction.txt', 'r') as f:
+    with open('custom/threestudio-dreambeast/system/attention_ops/part_extraction_prompt/animal_extraction.txt', 'r') as f:
         animal_part_extraction_prompt = f.read()
     animal_part_extraction_prompt = animal_part_extraction_prompt.replace("[COMPOSITE DESCRIPTION]", prompt)
     
