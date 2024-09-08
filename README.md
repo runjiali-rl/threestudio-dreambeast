@@ -1,4 +1,4 @@
-# <img src="./assets/img1_title3.png">threestudio-dreambeast
+# <img src="./assets/img1_title3.png" width="200" height="auto">>threestudio-dreambeast
 Runjia Li, Junlin Han, Luke Melas-Kyriazi, Chunyi Sun, Zhaochong An, Zhongrui Gui, Shuyang Sun, Philip Torr, Tomas Jakab
 
 <a href='https://runjiali-rl.github.io/projects/dreambeast.html'><img src='https://img.shields.io/badge/Project-Page-Green'></a>  <a href='https://arxiv.org/abs/xxx'><img src='https://img.shields.io/badge/Paper-Arxiv-red'></a>
