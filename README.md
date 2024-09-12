@@ -51,9 +51,9 @@ python launch.py --config custom/threestudio-dreambeast/configs/dreambeast.yaml 
 If you find DreamBeast helpful, please consider citing:
 
 ```
-@article{shi2023DreamBeast,
-  author = {Shi, Yichun and Wang, Peng and Ye, Jianglong and Mai, Long and Li, Kejie and Yang, Xiao},
-  title = {DreamBeast: Multi-view Diffusion for 3D Generation},
+@article{li2024DreamBeast,
+  author = {Runjia Li, Junlin Han, Luke Melas-Kyriazi, Chunyi Sun, Zhaochong An, Zhongrui Gui, Shuyang Sun, Philip Torr, Tomas Jakab},
+  title = {DreamBeast: Distilling 3D Fantastical Animals with Part-Aware Knowledge Transfer},
   journal = {arXiv:2308.16512},
   year = {2023},
 }
