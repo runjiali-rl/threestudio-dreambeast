@@ -1,8 +1,12 @@
 # <img src="./assets/img1_title3.png" width="80" height="auto">threestudio-dreambeast
 Runjia Li<sup>1</sup>, Junlin Han<sup>1</sup>, Luke Melas-Kyriazi<sup>1</sup>, Chunyi Sun<sup>2</sup>, Zhaochong An<sup>3</sup>, Zhongrui Gui<sup>1</sup>, Shuyang Sun<sup>1</sup>, Philip Torr<sup>1</sup>, Tomas Jakab<sup>1</sup>
-sup>1</sup>University of Oxford, <sup>2</sup>Australian National University, <sup>3</sup>University of Copenhagen
+
+<sup>1</sup>University of Oxford, <sup>2</sup>Australian National University, <sup>3</sup>University of Copenhagen
 
 <a href='https://dreambeast3d.github.io/'><img src='https://img.shields.io/badge/Project-Page-Green'></a>  <a href='https://arxiv.org/abs/xxx'><img src='https://img.shields.io/badge/Paper-Arxiv-red'></a>
+
+
+<center><img src="./assets/Chimera teaser.png" alt="mainimg" style="width:850px"><center>
 
 ## TL;DR
 
@@ -16,7 +20,6 @@ sup>1</sup>University of Oxford, <sup>2</sup>Australian National University, <su
 
 The DreamBeast extension for <a href='https://github.com/threestudio-project/threestudio'>threestudio</a>. To use it, simply install this extension in threestudio `custom` directory.
 
-<center><img src="./assets/Chimera teaser.png" alt="mainimg" style="width:850px"><center>
 
 # Installation
 ```bash
