@@ -12,8 +12,8 @@ Runjia Li<sup>1</sup>, Junlin Han<sup>1</sup>, Luke Melas-Kyriazi<sup>1</sup>, C
 
 - We introduce **DreamBeast**, a new method for generating part-aware 3D assets **efficiently**.
 - Utilize a novel **part-aware knowledge transfer** mechanism.
-- Efficiently extract part-level knowledge from **Stable Diffusion 3** into a **Part-affinity NeRF** for instant generation from various camera views.
-- Render part-affinity maps from the **Part-affinity NeRF** and **modulate** a multi-view diffusion model during score distillation sampling (SDS).
+- Efficiently extract part-level knowledge from **Stable Diffusion 3** into a **Part-Affinity NeRF** for instant generation from various camera views.
+- Render Part-Affinity maps from the **Part-Affinity NeRF** and **modulate** a multi-view diffusion model during score distillation sampling (SDS).
 - Improves the part-awareness and quality of generated 3D creatures with efficient computational costs.
 
 
