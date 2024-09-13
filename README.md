@@ -57,7 +57,7 @@ If you find DreamBeast helpful, please consider citing:
 @article{li2024DreamBeast,
   author = {Runjia Li, Junlin Han, Luke Melas-Kyriazi, Chunyi Sun, Zhaochong An, Zhongrui Gui, Shuyang Sun, Philip Torr, Tomas Jakab},
   title = {DreamBeast: Distilling 3D Fantastical Animals with Part-Aware Knowledge Transfer},
-  journal = {arXiv:2308.16512},
-  year = {2023},
+  journal = {arXiv:2409.08271},
+  year = {2024},
 }
 ```
