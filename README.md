@@ -3,7 +3,7 @@ Runjia Li<sup>1</sup>, Junlin Han<sup>1</sup>, Luke Melas-Kyriazi<sup>1</sup>, C
 
 <sup>1</sup>University of Oxford, <sup>2</sup>Australian National University, <sup>3</sup>University of Copenhagen
 
-<a href='https://dreambeast3d.github.io/'><img src='https://img.shields.io/badge/Project-Page-Green'></a>  <a href='https://arxiv.org/abs/xxx'><img src='https://img.shields.io/badge/Paper-Arxiv-red'></a>
+<a href='https://dreambeast3d.github.io/'><img src='https://img.shields.io/badge/Project-Page-Green'></a>  <a href='https://arxiv.org/abs/2409.08271v1'><img src='https://img.shields.io/badge/Paper-Arxiv-red'></a>
 
 
 <center><img src="./assets/Chimera teaser.png" alt="mainimg" style="width:850px"><center>
@@ -54,10 +54,13 @@ python launch.py --config custom/threestudio-dreambeast/configs/dreambeast.yaml 
 If you find DreamBeast helpful, please consider citing:
 
 ```
-@article{li2024DreamBeast,
-  author = {Runjia Li, Junlin Han, Luke Melas-Kyriazi, Chunyi Sun, Zhaochong An, Zhongrui Gui, Shuyang Sun, Philip Torr, Tomas Jakab},
-  title = {DreamBeast: Distilling 3D Fantastical Animals with Part-Aware Knowledge Transfer},
-  journal = {arXiv:2308.16512},
-  year = {2023},
+@misc{li2024dreambeastdistilling3dfantastical,
+      title={DreamBeast: Distilling 3D Fantastical Animals with Part-Aware Knowledge Transfer}, 
+      author={Runjia Li and Junlin Han and Luke Melas-Kyriazi and Chunyi Sun and Zhaochong An and Zhongrui Gui and Shuyang Sun and Philip Torr and Tomas Jakab},
+      year={2024},
+      eprint={2409.08271},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2409.08271}, 
 }
 ```

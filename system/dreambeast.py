@@ -501,33 +501,7 @@ class DreamBeastSystem(BaseLift3DSystem):
             name="test_step",
             step=self.true_global_step,
         )
-        attn_map_num = len(self.part_prompts)
-        rendered_attn = self.attn_renderer(**batch)
-        rendered_attn = rendered_attn["comp_rgb"][:, :, :, :attn_map_num]
-        attn_map_rgb_list = []
-        for part_idx in range(attn_map_num):
-            single_attn_map = rendered_attn[0, :, :, part_idx]
-            # convert the attention map to rgb
-            single_attn_map = (single_attn_map.detach().cpu().numpy() * 255).astype(np.uint8)
-            single_attn_map = cv2.applyColorMap(single_attn_map, cv2.COLORMAP_JET)
-            # convert rgb to bgr
-            single_attn_map = cv2.cvtColor(single_attn_map, cv2.COLOR_RGB2BGR)
-            single_attn_map = single_attn_map / 255.0
-            single_attn_map = torch.tensor(single_attn_map)
-            attn_map_rgb_list.append(
-                {
-                    "type": "rgb",
-                    "img": single_attn_map,
-                    "kwargs": {"data_format": "HWC"},
-                }
-            )        
-
-        self.save_image_grid(
-            f"it{self.true_global_step}-attn-test/{batch['index'][0]}.png",
-            attn_map_rgb_list,
-            name="test_step",
-            step=self.true_global_step,
-        )
+    
 
     def on_test_epoch_end(self):
         self.save_img_sequence(
