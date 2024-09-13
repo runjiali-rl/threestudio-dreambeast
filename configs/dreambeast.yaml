@@ -1,8 +1,6 @@
 name: "dreambeast"
 tag: "${rmspace:${system.prompt_processor.prompt},_}"
-# exp_root_dir: "/homes/55/runjia/storage/new_demo"
-# exp_root_dir: "outputs/non_animal"
-exp_root_dir: "outputs/test"
+exp_root_dir: "outputs/dreambeast"
 seed: 0
 
 
@@ -128,7 +126,7 @@ system:
 
 
   api_key: ???
-  cache_dir: "/homes/55/runjia/scratch/dreambeast_cache"
+  cache_dir: "./cache"
 
   # loss_weight: [1.8, 1, 2]
 
