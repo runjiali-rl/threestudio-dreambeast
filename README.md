@@ -20,6 +20,9 @@ Runjia Li<sup>1</sup>, Junlin Han<sup>1</sup>, Luke Melas-Kyriazi<sup>1</sup>, C
 
 The DreamBeast extension for <a href='https://github.com/threestudio-project/threestudio'>threestudio</a>. To use it, simply install this extension in threestudio `custom` directory.
 
+## Method
+
+<center><img src="./assets/method.png" alt="mainimg" style="width:850px"><center>
 
 # Installation
 ```bash
