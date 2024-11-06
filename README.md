@@ -3,6 +3,8 @@ Runjia Li<sup>1</sup>, Junlin Han<sup>1</sup>, Luke Melas-Kyriazi<sup>1</sup>, C
 
 <sup>1</sup>University of Oxford, <sup>2</sup>Australian National University, <sup>3</sup>University of Copenhagen
 
+In 3DV 2025 
+
 <a href='https://dreambeast3d.github.io/'><img src='https://img.shields.io/badge/Project-Page-Green'></a>  <a href='https://arxiv.org/abs/2409.08271v1'><img src='https://img.shields.io/badge/Paper-Arxiv-red'></a>
 
 
