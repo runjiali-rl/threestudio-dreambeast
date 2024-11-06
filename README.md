@@ -1,9 +1,8 @@
-# <img src="./assets/img1_title3.png" width="80" height="auto">threestudio-dreambeast
+# <img src="./assets/img1_title3.png" width="80" height="auto">threestudio-dreambeast (in 3DV 2025)
 Runjia Li<sup>1</sup>, Junlin Han<sup>1</sup>, Luke Melas-Kyriazi<sup>1</sup>, Chunyi Sun<sup>2</sup>, Zhaochong An<sup>3</sup>, Zhongrui Gui<sup>1</sup>, Shuyang Sun<sup>1</sup>, Philip Torr<sup>1</sup>, Tomas Jakab<sup>1</sup>
 
 <sup>1</sup>University of Oxford, <sup>2</sup>Australian National University, <sup>3</sup>University of Copenhagen
 
-In 3DV 2025 
 
 <a href='https://dreambeast3d.github.io/'><img src='https://img.shields.io/badge/Project-Page-Green'></a>  <a href='https://arxiv.org/abs/2409.08271v1'><img src='https://img.shields.io/badge/Paper-Arxiv-red'></a>
 
