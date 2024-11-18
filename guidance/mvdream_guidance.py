@@ -23,6 +23,7 @@ from threestudio.utils.typing import Float, Tensor
 
 
 
+
 @threestudio.register("partdream-guidance")
 class PartDreamDiffusionGuidance(BaseObject):
     @dataclass

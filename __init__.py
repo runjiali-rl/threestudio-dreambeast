@@ -14,6 +14,6 @@ else:
 
 from .background import neural_environment_map_background
 from .data import uncond_multiview
-from .guidance import mvdream_guidance, stable_diffusion_3_guidance, stable_diffusion_3_prompt_processor
+from .guidance import mvdream_guidance
 
 from .system import dreambeast

@@ -19,6 +19,7 @@ from .attention_ops import (extract_attn_maps,
 from diffusers import DiffusionPipeline
 from collections import defaultdict
 from transformers import AutoTokenizer
+from typing import Dict, Any
 
 
 
