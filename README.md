@@ -58,13 +58,10 @@ python launch.py --config custom/threestudio-dreambeast/configs/dreambeast.yaml 
 If you find DreamBeast helpful, please consider citing:
 
 ```
-@misc{li2024dreambeastdistilling3dfantastical,
-      title={DreamBeast: Distilling 3D Fantastical Animals with Part-Aware Knowledge Transfer}, 
-      author={Runjia Li and Junlin Han and Luke Melas-Kyriazi and Chunyi Sun and Zhaochong An and Zhongrui Gui and Shuyang Sun and Philip Torr and Tomas Jakab},
-      year={2024},
-      eprint={2409.08271},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV},
-      url={https://arxiv.org/abs/2409.08271}, 
+@article{li2024dreambeast,
+  title={DreamBeast: Distilling 3D Fantastical Animals with Part-Aware Knowledge Transfer},
+  author={Li, Runjia and Han, Junlin and Melas-Kyriazi, Luke and Sun, Chunyi and An, Zhaochong and Gui, Zhongrui and Sun, Shuyang and Torr, Philip and Jakab, Tomas},
+  journal={arXiv preprint arXiv:2409.08271},
+  year={2024}
 }
 ```
